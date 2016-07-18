@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+
+	<!-- to enable class internal anno -->
+	<context:annotation-config />
+
+	<!-- Circle Bean with property -->
+	<bean id="circle" class="beans.Circle">
+		<property name="radius" value="4" />
+	</bean>
+
+	<!-- Triangle Bean with property -->
+	<bean id="trianlge" class="beans.Triangle">
+		<property name="base" value="4" />
+		<property name="height" value="5" />
+	</bean>
+
+	<!-- Shape Bean -->
+	<bean id="shape" class="beans.Shape" />
+
+</beans>

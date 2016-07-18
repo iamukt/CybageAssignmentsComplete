@@ -1,0 +1,3 @@
+List representation is: [Customer [id=1, name=John Snow], Customer [id=1, name=John Snow]]
+Map representation is: {1=Customer [id=1, name=John Snow]}
+Set representation is: [Customer [id=1, name=John Snow]]

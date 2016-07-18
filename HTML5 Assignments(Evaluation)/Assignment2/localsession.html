@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title>Local Session Demo</title>
+		<script>
+			function locsession()
+			{
+				var username = document.getElementById("name").value;
+				localStorage.setItem(username,"Kalyani Nagar");
+				document.getElementById("address").innerHTML = localStorage.getItem(username);
+			}
+		</script>
+		</head>
+	<body>
+		Supply name to get the local storage value:&nbsp;&nbsp;<input type="text" id="name" placeholder="name">
+		<br>
+		Address will appear below from local Storage after clicking submit button:&nbsp;&nbsp;<div id="address"> </div>
+		<br>
+		<input type="submit" onclick="locsession();"/>
+		
+	</body>
+</html>

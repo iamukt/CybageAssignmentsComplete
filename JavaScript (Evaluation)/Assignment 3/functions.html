@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+	<head>
+	</head>
+	<body>
+		<script>
+			//Function returning to a variable
+			var square = function (number) { return (number * number) }
+			console.log(square(2));
+			//Example of Nested function
+			var say =(function hello()
+			{
+				var name = "Mike";
+				return function ( )
+				{
+					return console.log(name);
+				}
+			})();
+			say();
+		</script>	
+	</body>
+</html>

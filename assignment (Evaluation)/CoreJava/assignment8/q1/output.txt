@@ -1,0 +1,145 @@
+#This is the output file
+1.Insert into Employee table
+2.Insert into Student table
+3.Update Employee table
+4.Update Student table
+5.Display Employee table(with Metadata)
+6.Display Student table(with Metadata)
+7.Exit
+1
+Enter the no. of rows you want to insert
+1
+Enter Employee Code
+16211
+Enter Name
+Megha
+Enter Designation
+Trainee
+1.Insert into Employee table
+2.Insert into Student table
+3.Update Employee table
+4.Update Student table
+5.Display Employee table(with Metadata)
+6.Display Student table(with Metadata)
+7.Exit
+2
+Enter the no. of rows you want to insert
+1
+Enter Rollno
+210
+Enter Name
+Mike
+Enter division
+class2
+1.Insert into Employee table
+2.Insert into Student table
+3.Update Employee table
+4.Update Student table
+5.Display Employee table(with Metadata)
+6.Display Student table(with Metadata)
+7.Exit
+3
+Enter Employee Code: 
+16211
+Enter Name
+kumar
+Enter Designation
+trainee
+empcode: 16210
+name: umesh
+designation: softwareEngineer
+empcode: 16211
+name: kumar
+designation: trainee
+1.Insert into Employee table
+2.Insert into Student table
+3.Update Employee table
+4.Update Student table
+5.Display Employee table(with Metadata)
+6.Display Student table(with Metadata)
+7.Exit
+4
+Enter RollNo: 
+210
+Enter Name
+Giri
+Enter division
+class3
+rollNo: 1
+name: egabc
+division: class15
+rollNo: 2
+name: 2
+division: arun
+rollNo: 2
+name: class-2
+division: 3
+rollNo: 789
+name: umesh
+division: toke
+rollNo: 569
+name: hitler
+division: ksandk
+rollNo: 123
+name: iuth
+division: hit
+rollNo: 16210
+name: umesh
+division: trainee-software
+rollNo: 210
+name: Giri
+division: class3
+1.Insert into Employee table
+2.Insert into Student table
+3.Update Employee table
+4.Update Student table
+5.Display Employee table(with Metadata)
+6.Display Student table(with Metadata)
+7.Exit
+5
+empcode: 16210
+name: umesh
+designation: softwareEngineer
+empcode: 16211
+name: kumar
+designation: trainee
+1.Insert into Employee table
+2.Insert into Student table
+3.Update Employee table
+4.Update Student table
+5.Display Employee table(with Metadata)
+6.Display Student table(with Metadata)
+7.Exit
+6
+rollNo: 1
+name: egabc
+division: class15
+rollNo: 2
+name: 2
+division: arun
+rollNo: 2
+name: class-2
+division: 3
+rollNo: 789
+name: umesh
+division: toke
+rollNo: 569
+name: hitler
+division: ksandk
+rollNo: 123
+name: iuth
+division: hit
+rollNo: 16210
+name: umesh
+division: trainee-software
+rollNo: 210
+name: Giri
+division: class3
+1.Insert into Employee table
+2.Insert into Student table
+3.Update Employee table
+4.Update Student table
+5.Display Employee table(with Metadata)
+6.Display Student table(with Metadata)
+7.Exit
+7

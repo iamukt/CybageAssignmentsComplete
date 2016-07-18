@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Object Properties like</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var customer = new Object();
+		customer.name = "Helena";
+		customer.id = 112;
+		//Performing delete operation on object
+		console.log("Is name in customer: ")
+		console.log(name in customer);
+		console.log("customer name: "+customer.name);
+		console.log("customer id: "+customer.id);
+		delete customer.name;
+		console.log("Is name in customer: ")
+		console.log(name in customer);
+		console.log("customer name: "+customer.name);
+		console.log("customer id: "+customer.id);
+		
+		//Checking the type of object
+		console.log("type is: "+typeof(customer.id));
+	</script>
+</body>
+</html>

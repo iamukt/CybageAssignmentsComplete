@@ -1,0 +1,20 @@
+<html>
+	<head>
+		
+	</head>
+	<body>
+		<script type="text/javascript">
+			//Example of closure
+			var count = (function localCount() {
+				var localCount = 0;
+				return function()
+				{
+					return console.log(++localCount);
+				} 
+			})();
+			count();
+			count();
+			count();
+		</script>
+	</body>
+</html>

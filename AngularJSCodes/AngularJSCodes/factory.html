@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+
+	</title>
+</head>
+<body ng-app="myApp">
+	<div ng-controller="controller">
+		<input type="number" ng-model="number">
+		<button ng-click="square()">clickme</button>
+		<p>Result: {{ resultSquare }}</p>
+		<br><br>
+		<button ng-click="add()">clickme</button>
+		<p>Result: {{ resultAdd }}</p>
+	</div>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+	<script type="text/javascript" src="factory.js"></script>
+</body>
+</html>

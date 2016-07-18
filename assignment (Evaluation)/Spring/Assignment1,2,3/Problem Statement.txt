@@ -1,0 +1,1 @@
+Create a spring Application by showing bean Scope as a prototype and also explore singleton

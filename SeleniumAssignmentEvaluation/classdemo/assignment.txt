@@ -1,0 +1,17 @@
+Using Page Object and Page Factory create the below test script. Where it is required to wait use WebDriverWait and FluentWait. Using both types of waits is mandatory.
+
+1. Open https://www.ecwid.com/in/demo
+2. Search for "Toy" in search
+3. Verify 21 results are found
+4. Sort the product list "Low to High" Price wise
+5. Select the product "Shocking Pen"
+6. Change quantity as "30"
+7. Add to cart/bag
+8. Verify "30 in the Bag"
+9. Click on the DEMO link at the top of the page
+10. Change the language to "Marathi"
+11. Take Screen Shot to verify if the language has changed to "Marathi"
+12. Change the language to "English"
+13. Verify if the language has changed to "English"
+
+NOTE: Entire Code and Locators must be optimized.

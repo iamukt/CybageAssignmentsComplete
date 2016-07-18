@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="collection" class="beans.CollectionBean">
+	<property name="l1">
+		<list>
+		<ref local="customer"/>
+		<ref local="customer"/>
+		</list>
+	</property>
+	<property name="map">
+		<map>
+			<entry key="1" value-ref="customer"/>
+		</map>
+	</property>
+	<property name="set">
+		<set>
+			<ref local="customer"/>
+			<ref local="customer"/>
+		</set>
+	</property>
+</bean>
+
+<bean id="customer" class="beans.Customer" >
+	<property name="id">
+		<value>1</value>
+	</property>
+	<property name="name">
+		<value>John Snow</value>
+	</property>
+</bean>
+</beans>

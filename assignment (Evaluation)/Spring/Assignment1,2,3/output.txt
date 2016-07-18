@@ -1,0 +1,13 @@
+Triangle class Instantiated 1 times
+
+Circle class Instantiated 1 times
+
+Area of the circle is: 12.56
+
+Circle class Instantiated 2 times
+
+Area of the circle is: 12.56
+
+Area of the Triangle is: 10.0
+
+Area of the Triangle is: 10.0

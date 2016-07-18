@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Box-Sizing Example</title>
+		<style>
+			
+			.noboxing 
+			{
+				border: 1px solid green;
+				border-radius: 25px;
+				width: 20em;
+				height: 10em;
+				margin-top: 10em;
+				margin-left: 10em;
+				font-family: "Times New Roman", Times, serif;
+				font-size: 25px;
+			}
+			
+			.boxing 
+			{
+				border: 1px solid green;
+				border-radius: 25px;
+				width: 20em;
+				height: 10em;
+				margin-top: 10em;
+				margin-left: 10em;
+				font-family: "Times New Roman", Times, serif;
+				font-size: 25px;
+				box-sizing: border-box;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="noboxing">
+			This is first div without padding (No Box-Sizing used)
+		</div>
+		<div class="noboxing" style="padding: 50px;">
+			This is the second div with padding (No Box-Sizing used) 
+		</div>
+		
+		<div class="boxing">
+			This is third div without padding (Box-Sizing used)
+		</div>
+		<div class="boxing" style="padding: 50px;">
+			This is the fourth div with padding (Box-Sizing used) 
+		</div>
+		
+	</body>
+</html>

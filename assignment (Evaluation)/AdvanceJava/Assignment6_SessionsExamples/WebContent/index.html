@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Home Page</title>
+</head>
+<body>
+	<!-- Session using cookies -->
+	<form action="SessionUsingCookies">
+		<label>Username:</label>
+		 <input type="text" placeholder="username" name="username">
+		<input type="submit">
+	</form>
+	
+	<!-- Session using HttpSession -->
+	<form action="SessionUsingHttpSession">
+		<label>Username:</label>
+		 <input type="text" placeholder="username" name="username">
+		<input type="submit">
+	</form>
+	
+	<!-- Session using URLRewritting -->
+	<form action="SessionUsingUrlRewritting">
+		<label>Username:</label>
+		 <input type="text" placeholder="username" name="username">
+		<input type="submit">
+	</form>
+	
+	<!-- Session using hidden form element -->
+	<form action="SessionUsingHiddenFormElement">
+	
+		<label>Username:</label>
+		Submit to see hidden Data 
+		<input type="hidden" name="hiddenValue" value="MarkZuckerberg">
+		<input type="submit"> 
+	</form>
+</body>
+</html>

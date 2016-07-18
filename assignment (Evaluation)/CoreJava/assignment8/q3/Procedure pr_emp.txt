@@ -1,0 +1,9 @@
+DELIMITER $$
+
+DROP PROCEDURE IF EXISTS `test`.`pr_emp` $$
+CREATE PROCEDURE `test`.`pr_emp` (IN hra double)
+BEGIN
+  update employee set salary=salary+0.10*hra where 1=1;
+END $$
+
+DELIMITER ;

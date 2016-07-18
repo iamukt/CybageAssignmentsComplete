@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!-- setting the constructor argument. Each time the bean is called a new object will be formed-->
+<bean id="circle" class="beans.Circle" scope="prototype">
+	<constructor-arg value="4" type="int"/>
+</bean>
+
+<!-- setting the getter and setters. Each time the bean is called the same object is used-->
+<bean id="triangle" class="beans.Triangle" scope="singleton">
+	<property name="base">
+		<value>5</value>
+	</property>
+	<property name="height">
+		<value>4</value>
+	</property>
+	</bean>
+	
+</beans>

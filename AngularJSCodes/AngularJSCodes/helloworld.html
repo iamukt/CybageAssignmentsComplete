@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+	<script type="text/javascript" src="helloworld.js"></script>
+</head>
+<body ng-app="module">
+
+	<div ng-controller="controller">	<div >
+		
+		<h3>{{ message }}</h3>
+		<br><br>
+		<input type="text" name="name" placeholder="Type Anything" ng-model="yourname">
+		<br><br>
+		See your typed value appears here: {{yourname}}
+		<br><br>
+		Fullname:
+		{{ student.dummyvar }}	 
+		{{ student.fullname2 }}	
+		<br><br>
+		UpperCase
+		{{ student.firstname | uppercase }}
+		<br><br>
+		List of the Countries: 
+		<ul>
+			<li ng-repeat="country in countries">{{ country.name }}</li>
+		</ul>
+	</div>
+
+	<div>
+		<div>
+			<table>
+				<tr>
+					<th>Name</th>
+					<th>Phone Number</th>
+					<th>Age</th>
+				</tr>
+				<tr ng-repeat="friend in friends | orderBy:'age'">
+					<td>{{friend.name}}</td>
+					<td>{{friend.phone}}</td>
+					<td>{{friend.age}}</td>
+				</tr>
+			</table>
+		</div>
+
+
+	</div>
+</div>
+
+
+
+
+</body>
+</html>

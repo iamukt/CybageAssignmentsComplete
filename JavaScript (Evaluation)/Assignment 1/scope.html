@@ -1,0 +1,28 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var i="John";
+			var j="Dennis"
+			function testScope1()
+			{
+				console.log(i); //Will Print John
+				i="Ned";
+				console.log(i);  //Will Print Ned
+			}
+			function  testScope2()
+			{	
+				console.log(j); //Undefined due to varible hoisting
+				var j = "Brendan Eich";
+				console.log(j); //Will print Brendan Eich
+			}
+			console.log(i); //Will Print John
+			testScope1(); 
+			console.log(i); //Will Print Ned
+			console.log(j); //Will print Dennis
+			testScope2();
+			console.log(j); //Will print Dennis
+		</script>
+	</body>
+</html>

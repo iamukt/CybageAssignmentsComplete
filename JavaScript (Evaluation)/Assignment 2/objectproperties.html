@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Object Properties</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var student = {name: "mark", rollno: 21,
+			address: {city: "pune",pincode: 411014}
+		};
+		console.log("Student Name is: "+student.name);
+		console.log("Student's address is: "+student.address.city);
+		//Demonstration of define properties
+		Object.defineProperties(student, {
+			"chngRollNo": { set: function (x) 
+				{ this.rollno = x / 2; } 
+			}});
+		student.chngRollNo=4;
+		console.log("Student rollno is: "+student.rollno);
+		
+	</script>
+</body>
+</html>
